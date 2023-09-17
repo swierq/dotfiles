@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "'Fira Code','Droid Sans Mono', 'monospace', monospace",
+    "files.autoSave": "afterDelay",
+    "window.titleBarStyle": "custom"
+}
