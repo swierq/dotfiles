@@ -133,3 +133,5 @@ function termodinit(){
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
 source <(kubectl completion zsh)
+
+[[ -s "/home/przemek/.gvm/scripts/gvm" ]] && source "/home/przemek/.gvm/scripts/gvm"
