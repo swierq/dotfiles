@@ -2,7 +2,7 @@
 	email = swierq@gmail.com
 	name = Przemyslaw Swierczek
         username = swierq
-	signingkey = /home/przemek/.ssh/id_rsa.pub
+	signingkey = ~/.ssh/id_rsa.pub
 [gpg]
 	format = ssh
 [commit]
