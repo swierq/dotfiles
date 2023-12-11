@@ -1,0 +1,2 @@
+ctrl + super + k
+  tdrop -ma -w -4 -y "$PANEL_HEIGTH" -r kitty
