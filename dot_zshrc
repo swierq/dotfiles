@@ -137,3 +137,4 @@ source <(kubectl completion zsh)
 
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 alias "icat=kitty icat"
+alias "gitf!=gaa && gcn! && gpf"
