@@ -139,4 +139,4 @@ source <(kubectl completion zsh)
 alias "icat=kitty icat"
 alias "gitf!=gaa && gcn! && gpf"
 
-[[ -f ~/.os-specific.zshkD ]] && source ~/.os-specific.zsh]
+[[ -f "$HOME/.os-specific.zsh" ]] && source $HOME/.os-specific.zsh
