@@ -19,11 +19,5 @@
     refreshPeriod = "168h"
 [".config/nvim"]
     type = "git-repo"
-    url = "https://github.com/AstroNvim/AstroNvim"
-    refreshPeriod = "168h"
-    [".config/nvim".pull]
-        args = ["--depth=1"]
-[".config/nvim/lua/user"]
-    type = "git-repo"
-    url = "https://github.com/swierq/nvim"
+    url = "https://github.com/swierq/neovim-config"
     refreshPeriod = "168h"
