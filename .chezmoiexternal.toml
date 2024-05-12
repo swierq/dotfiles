@@ -11,9 +11,9 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
- [".tmux-themepack"]
-    type = "archive"
-    url = "https://github.com/jimeh/tmux-themepack/archive/master.tar.gz"
+ [".tmux/plugins/tpm"]
+    type = "git-repo"
+    url = "https://github.com/tmux-plugins/tpm"
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
