@@ -73,7 +73,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(vi-mode git fzf aws vscode terraform)
+plugins=(vi-mode git fzf aws terraform)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -137,5 +137,5 @@ source <(kubectl completion zsh)
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 alias "icat=kitty icat"
 alias "gitf!=gaa && gcn! && gpf"
-
+alias "tx=tmuxifier load-session"
 [[ -f "$HOME/.os-specific.zsh" ]] && source $HOME/.os-specific.zsh
