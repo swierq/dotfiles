@@ -19,3 +19,7 @@
     url = "https://github.com/jimeh/tmuxifier.git"
     refreshPeriod = "168h"
 
+[".fzf"]
+    type = "git-repo"
+    url = "https://github.com/junegunn/fzf.git"
+    refreshPeriod = "168h"
