@@ -4,20 +4,7 @@
     exact = true
     stripComponents = 1
     refreshPeriod = "168h"
-[".oh-my-zsh"]
-    type = "archive"
-    url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
-[".oh-my-zsh/custom/themes/spaceship-prompt"]
-    type = "archive"
-#url = "https://github.com/spaceship-prompt/spaceship-prompt/archive/master.tar.gz"
-    url = "https://github.com/spaceship-prompt/spaceship-prompt/archive/refs/tags/v4.15.0.tar.gz"
-    exact = true
-    stripComponents = 1
-    refreshPeriod = "168h"
- [".tmux/plugins/tpm"]
+[".tmux/plugins/tpm"]
     type = "git-repo"
     url = "https://github.com/tmux-plugins/tpm"
     exact = true

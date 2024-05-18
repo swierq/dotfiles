@@ -22,41 +22,5 @@ eval "$(starship init zsh)"
 # SPACESHIP_PROMPT_ASYNC=false
 # plugins=(git fzf aws terraform)
 # source $ZSH/oh-my-zsh.sh
+source ~/.zshrc_local
 
-alias terdoc="terraform-docs markdown table --output-file README.md --output-mode inject"
-export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border --inline-info'
-
-function ibt(){
-  local filter tag tag_list
-  filter=''
-  tag='a'
-  tag_list=$(aws ec2 describe-tags | jq '.Tags[].Key' | sort -u)
-  until [ -z "$tag" ]; do
-    tag=$(echo $tag_list | fzf --header "Choose tag:" | tr -d "\"" | tr -d "\n")
-    if [ ! -z "$tag" ]; then
-      f="Name=tag:$tag,Values=\*"
-      value=$(aws ec2 describe-tags --filters Name=tag:$tag,Values=\* | jq '.Tags[].Value' | sort -u | fzf --header "Choose value for tag $tag" | tr -d "\"" | tr -d "\n")
-      [ -z "$filter" ] && filter="Name=tag:$tag,Values=$value" || filter="$filter Name=tag:$tag,Values=$value"
-    fi
-  done
-  if [ -z "$filter" ]; then
-    echo "Empty filter, exiting"
-  else
-    echo "Filter: $filter"
-    aws ec2 describe-instances --no-cli-page --filters ${=filter} --query "Reservations[*].Instances[*].{Ip:PrivateIpAddress,Id:InstanceId,Name:Tags[?Key == 'Name'] | [0].Value}" --output table
-  fi
-}
-
-function termodinit(){
-  touch main.tf outputs.tf variables.tf versions.tf
-}
-
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C $HOME/bin/terraform terraform
-source <(kubectl completion zsh)
-
-[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
-alias "icat=kitty icat"
-alias "gitf!=gaa && gcn! && gpf"
-alias "tx=tmuxifier load-session"
-[[ -f "$HOME/.os-specific.zsh" ]] && source $HOME/.os-specific.zsh
