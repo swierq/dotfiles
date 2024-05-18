@@ -8,6 +8,9 @@ compinit
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 plug "chivalryq/git-alias"
 plug "zap-zsh/fzf"
+plug "zsh-users/zsh-autosuggestions"
+plug "zap-zsh/supercharge"
+plug "zsh-users/zsh-syntax-highlighting"
 
 export PATH=$HOME/go/bin:$HOME/bin:/usr/local/bin:$HOME/.tmuxifier/bin:$PATH
 eval "$(tmuxifier init -)"
