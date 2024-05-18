@@ -5,6 +5,7 @@ SAVEHIST=10000
 setopt appendhistory
 autoload -Uz compinit
 compinit
+export FZF_PATH=~/.fzf
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 plug "chivalryq/git-alias"
 plug "zap-zsh/fzf"
