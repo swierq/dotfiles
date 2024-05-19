@@ -34,5 +34,7 @@ source <(kubectl completion zsh)
 alias "icat=kitty icat"
 alias "gitf!=gaa && gcn! && gpf"
 alias "tx=tmuxifier load-session"
+alias "txl=tmux ls"
 alias "ll=ls -lha"
+export EDITOR=nvim
 [[ -f "$HOME/.os-specific.zsh" ]] && source $HOME/.os-specific.zsh
