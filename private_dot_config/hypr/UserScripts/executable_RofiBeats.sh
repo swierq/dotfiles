@@ -8,18 +8,13 @@ iDIR="$HOME/.config/swaync/icons"
 
 # Define menu options as an associative array
 declare -A menu_options=(
-  ["Thanatos ☕️🎶"]="https://www.youtube.com/watch?v=0QKQlf8r7ls&list=UULPmYTgpKxd-QOJCPDrmaXuqQ"
+  ["Thanatos 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=0QKQlf8r7ls&list=UULPmYTgpKxd-QOJCPDrmaXuqQ"
+  ["Thanatos 2 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=qk1nnAHI1mI"
+  ["Thanatos 3 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=LxQWv-p5BMQ"
+  ["Thanatos Elysium 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=yKS3R5Kf4Pk"
+  ["Lofi YT 2 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=wu7tU_fGFso"
   ["Gandalf ☕️🎶"]="https://www.youtube.com/watch?v=Sagg08DrO5U"
   ["Lofi Girl ☕️🎶"]="https://play.streamafrica.net/lofiradio"
-  ["96.3 Easy Rock 📻🎶"]="https://radio-stations-philippines.com/easy-rock"
-  ["Ghibli Music 🎻🎶"]="https://youtube.com/playlist?list=PLNi74S754EXbrzw-IzVhpeAaMISNrzfUy&si=rqnXCZU5xoFhxfOl"
-  ["Top Youtube Music 2023 ☕️🎶"]="https://youtube.com/playlist?list=PLDIoUOhQQPlXr63I_vwF9GD8sAKh77dWU&si=y7qNeEVFNgA-XxKy"
-  ["Chillhop ☕️🎶"]="http://stream.zeno.fm/fyn8eh3h5f8uv"
-  ["SmoothChill ☕️🎶"]="https://media-ssl.musicradio.com/SmoothChill"
-  ["Relaxing Music ☕️🎶"]="https://youtube.com/playlist?list=PLMIbmfP_9vb8BCxRoraJpoo4q1yMFg4CE"
-  ["Youtube Remix 📻🎶"]="https://youtube.com/playlist?list=PLeqTkIUlrZXlSNn3tcXAa-zbo95j0iN-0"
-  ["Korean Drama OST 📻🎶"]="https://youtube.com/playlist?list=PLUge_o9AIFp4HuA-A3e3ZqENh63LuRRlQ"
-
 )
 
 # Function for displaying notifications
