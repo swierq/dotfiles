@@ -5,6 +5,7 @@ SAVEHIST=10000
 autoload -z edit-command-line
 zle -N edit-command-line
 bindkey -v
+bindkey -M viins '\e.' insert-last-word
 setopt appendhistory
 autoload -Uz compinit
 compinit
