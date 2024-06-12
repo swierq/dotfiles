@@ -8,13 +8,12 @@ iDIR="$HOME/.config/swaync/icons"
 
 # Define menu options as an associative array
 declare -A menu_options=(
+  ["Thanatos Live 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=8Jax4Ol2I7Y"
   ["Thanatos 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=0QKQlf8r7ls&list=UULPmYTgpKxd-QOJCPDrmaXuqQ"
   ["Thanatos 2 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=qk1nnAHI1mI"
   ["Thanatos 3 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=LxQWv-p5BMQ"
   ["Thanatos Elysium 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=yKS3R5Kf4Pk"
-  ["Lofi YT 2 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=wu7tU_fGFso"
   ["Gandalf ☕️🎶"]="https://www.youtube.com/watch?v=Sagg08DrO5U"
-  ["Lofi Girl ☕️🎶"]="https://play.streamafrica.net/lofiradio"
 )
 
 # Function for displaying notifications
