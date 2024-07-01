@@ -9,8 +9,7 @@ mDIR="$HOME/Music/"
 iDIR="$HOME/.config/swaync/icons"
 
 # Online Stations. Edit as required
-#
-declare -A menu_options=(
+declare -A online_music=(
   ["Thanatos Live 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=8Jax4Ol2I7Y"
   ["Thanatos 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=0QKQlf8r7ls&list=UULPmYTgpKxd-QOJCPDrmaXuqQ"
   ["Thanatos 2 📻🎶🎻🎶☕️🎶"]="https://www.youtube.com/watch?v=qk1nnAHI1mI"
