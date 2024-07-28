@@ -1,4 +1,4 @@
-session_root "~/repos/ps/hovercraft-go"
+session_root "~/repos/gh/swierq/hovercraft-go"
 
 if initialize_session "hovercraft"; then
   load_window "nvimgo"
