@@ -33,5 +33,7 @@ eval "$(starship init zsh)"
 # SPACESHIP_PROMPT_ASYNC=false
 # plugins=(git fzf aws terraform)
 # source $ZSH/oh-my-zsh.sh
+eval "$(zoxide init zsh)"
 source ~/.zshrc_local
+
 
