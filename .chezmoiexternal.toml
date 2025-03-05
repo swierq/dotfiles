@@ -2,6 +2,7 @@
     type = "archive"
     url = "https://github.com/zap-zsh/zap/archive/refs/tags/1.2.0.zip"
     exact = true
+    include = ["completion","zap.zsh","install.zsh","templates"]
     stripComponents = 1
     refreshPeriod = "168h"
 [".tmux/plugins/tpm"]
