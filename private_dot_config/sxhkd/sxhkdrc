@@ -1,2 +1,0 @@
-ctrl + super + k
-  tdrop -ma -w -4 -y "$PANEL_HEIGTH" -s dropdown -r kitty --start-as=fullscreen
