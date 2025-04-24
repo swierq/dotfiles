@@ -3,7 +3,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
-autoload -Uz compinit
+autoload -Uz compinit zmv zcalc
 compinit
 export FZF_PATH=~/.fzf
 export TMUXIFIER_LAYOUT_PATH="$HOME/.tmux-layouts"
@@ -23,7 +23,7 @@ bindkey  "^[[1~" beginning-of-line
 bindkey  "^[[4~" end-of-line
 bindkey  "^[[3~" delete-char
 
-export PATH=$HOME/go/bin:$HOME/bin:/usr/local/bin:$HOME/.tmuxifier/bin:$PATH
+export PATH=$HOME/go/bin:$HOME/.cargo/bin:$HOME/bin:/usr/local/bin:$HOME/.tmuxifier/bin:$PATH
 eval "$(tmuxifier init -)"
 eval "$(starship init zsh)"
 
